@@ -51,6 +51,7 @@ body {
     font-size: 100px;
     font-weight: lighter;
     text-transform: uppercase !important;
+    text-wrap: nowrap;
     color: white;
     font-family: myName;
 }
@@ -86,6 +87,8 @@ nav {
     /* text-transform: uppercase; */
     /* text-decoration: none; */
     width: 20px;
+    padding: 0;
+    margin: 0;
     /* background: url(../pics/logo.png) no-repeat 70% 70%; */
 }
 
@@ -131,6 +134,37 @@ nav {
         font-size: 40px;
         bottom: -20px;
     }
+
+    /* Home */
+
+    .menu__logo img {
+        width: 20px;
+
+        padding: 0;
+        margin-top: 1.2px;
+    }
+
+    .hero-title {
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .hero-title h1 {
+        font-size: 40px;
+        font-weight: lighter;
+        text-transform: uppercase !important;
+        text-wrap: nowrap;
+        color: white;
+        font-family: myName;
+    }
+
+    .hero-img {
+        width: 250px;
+    }
+
 }
 
 /* about page styles */
@@ -317,5 +351,6 @@ p.about__container-link {
         position: relative;
         top: 0;
         left: 0;
+        width: 100%;
     }
 }
